@@ -1,0 +1,85 @@
+body{
+    background-color: lightblue;
+    background-image: linear-gradient(to left, grey , black);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+  
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 25px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.active{
+    background-color: black;
+}  
+.topnav-right a:hover {
+    background-color: grey;
+    color: black;
+}
+  
+.topnav-right {
+    float: right;
+}
+.Welcom{
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+.Welcom h1{
+    text-align: center;
+    color: white;
+}
+.Welcom p{
+    padding-bottom:10px ;
+    font-size: 17px;
+    padding-top: 5px;
+    color: white;
+    text-align: justify;
+}
+.Welcom h2{
+    padding-top: 10px;
+    text-align: left;
+    color: white;
+}
+.Thank p{
+    padding-bottom:10px ;
+    font-size: 25px;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-top: 5px;
+    color: white;
+    text-align: justify;
+}
+.IMGkiri img{
+    float: left;
+    width: 20vw;
+    height:40vh;
+    object-position: left;
+}
+.IMGkanan img{
+    float: right;
+    width: 20vw;
+    height:40vh;
+    object-position: right;
+}
+.Number{
+    background-color: black;
+    padding: 20px 25px;
+    color: white;
+    text-align: center;
+}
+.Call{
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2.5vh;
+}

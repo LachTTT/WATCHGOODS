@@ -1,0 +1,149 @@
+body{
+    background-color: lightblue;
+    background-image: linear-gradient(to left, grey , black);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topnav{
+    overflow: hidden;
+    background-color: #333;
+}
+  
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 25px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.active{
+    background-color: black;
+}  
+.topnav-right a:hover {
+    background-color: grey;
+    color: black;
+    
+}
+  
+.topnav-right {
+    float: right;
+}
+.ourproduct h1{
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+.rolexx h2{
+    text-align: center;
+    color: white;
+    padding: 10px 10px;
+}
+.rITEMS{
+    height: 300px;
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    
+}
+.rITEMS div{
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    color: black;
+}
+.gappp{
+    padding: 5vw;
+}
+.meng{
+    justify-content: center;
+    display: flex;
+    gap: 1vw;
+    border: 100px;
+    color: solid;
+}
+.ganteng h2{
+    color: red;
+}
+.ganteng{
+    text-align: center;
+    margin: 2vw;
+}
+.pic {
+    width: 20vw;
+    height: 20vw;
+}
+
+.pic-1 {
+    margin-top: 1.8vw;
+    width: 8vw;
+    height: 15vw;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 20vw;
+    height: 20vw;
+    perspective: 1000px;
+  }
+  
+.flip-card-inner {
+    position: relative;
+    width: 20vw;
+    height: 20vw;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+  
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+
+.flip-card-front {
+    background-color: white;
+    color: black;
+  }
+  
+.flip-card-back {
+    
+    text-align: center;
+    background-color: black;
+    color: white;
+    transform: rotateY(180deg);
+  }
+@media screen and (max-width: 900px) {
+    .ganteng h1{
+        font-size: 18px;
+    }
+    .ganteng h2{
+        font-size: 14px;
+    }
+    .ganteng h3{
+        font-size: 10px;
+    }
+}
+  .Number{
+    background-color: black;
+    padding: 20px 25px;
+    color: white;
+    text-align: center;
+}
+.Call{
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2.5vh;
+}

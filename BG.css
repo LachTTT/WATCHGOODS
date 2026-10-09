@@ -1,0 +1,86 @@
+body{
+    background-color: lightblue;
+    background-image: linear-gradient(to left, grey , black);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topnav {
+    overflow: hidden;
+    width: 100vw;
+    background-color: #333;
+    position: fixed;
+    display: flex;
+    z-index: 100;
+    justify-content: space-between;
+}
+
+.topnav-right {
+    margin-right: 2vw;
+}
+
+.topnav a {
+    float:left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 25px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.active{
+    background-color: black;
+}  
+.topnav-right a:hover {
+    background-color: grey;
+    color: black;
+}
+
+.TENGAH video{
+    opacity: 0.75;
+    height: 55.6vw;
+}
+.collab{
+    overflow: hidden;
+    background-color: white ;
+    opacity: 0.75;
+    position: relative;
+    width: 100%;
+}
+.collab h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    width: 100%;
+    padding: 5px; 
+}
+
+.row img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    
+}
+.img-container{
+    height: 10vh;
+    padding-bottom: 50px;
+    
+}
+.Number{
+    background-color: black;
+    padding: 20px 25px;
+    color: white;
+    text-align: center;
+}
+.Call{
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2.5vh;
+}

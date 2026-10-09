@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="contactusbg.css" />
+    <script src="/contactus.js" defer></script>
+    <title>WatcHGoods</title>   
+</head>
+<body>
+    <div class="topnav">
+        <div class = "logo">
+         <a href="LOGO">WatcHGoods</a>
+        </div>
+       <div class="topnav-right">
+            <a href="MENU.html">Home</a>
+            <a href="Product.html">Product</a>
+            <a href="ABOUTUS.html">About Us</a>
+            <a href="Location.html">Location</a>
+            <a class="active" href="Contactus.html">Contact Us</a>
+       </div>
+    </div>
+    <div class="boday">
+         <h1>Contact Us</h1>
+    </div>
+    <div class="bodtop">
+        <div class="container"> 
+            <form name="contactusform" class="woikok">
+                <div class="row">
+                    <div class="column">
+                        Full Name :
+                        <br>
+                        <input type="text" id="fullname" placeholder="Input Full Name">
+                        <br>
+                        Email :
+                        <br>
+                        <input type="email" id="email" placeholder="Input Email">
+                        <br>
+                        Country:
+                        <br>
+                        <select name="Country" id="country">
+                            <option value=""></option>
+                            <option value="indonesia">Indonesia</option>
+                            <option value="singapore">Singapore</option>
+                            <option value="malaysia">Malayasia</option>
+                            <option value="philippines">Philippines</option>
+                            <option value="timorleste">Timor Leste</option>
+                        </select>
+                        <br>
+                    </div>
+                    <div class="column">
+                        Message: 
+                        <br>
+                        <textarea name="message" id="message" placeholder="Write Something"></textarea>
+                        <div class="Mencoba">
+                            <input type="checkbox" name="" id="agree">I Agree With The Terms and Condition
+                        </div>
+                        
+                        <br>
+                        <button type="button" onclick="validate()">Submit</button>
+                    </div>
+                  </div>
+            </form>
+        </div>
+    </div>
+    <footer class="Number">
+        <div class="Call">
+            <div>For More Information:</div>
+            <div>Call: (021) 4646969876 </div>
+            <div>Instagram : @WatcHGoods</div>
+        </div>
+    </footer>
+    
+</body>
+</html>
